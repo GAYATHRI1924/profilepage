@@ -1,38 +1,147 @@
-.App {
-  text-align: center;
+*{
+  /* background-color: rgb(60, 90, 131); */
+  margin: 0;
+  padding: 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.Navbar{
+  height: 10vh;
+  width: 100%;
+  background-color: rgb(60, 90, 131);
+  position: relative;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.Logo{
   color: white;
+   font-size: 40px;
+   left: 80px;
+   top: 10px;
+   position:absolute;
 }
 
-.App-link {
-  color: #61dafb;
+ .nav{
+    /* display: flex;
+    flex-direction: row; */
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    float:Right;
+    
+} 
+
+.butn1{
+  width: 100px;
+  height: 50px;
+  color: aliceblue;
+  background-color: rgb(60, 90, 131);
+  font-size: 15px;
+  margin: 10px;
+  padding: 10px;
+  opacity: 0.7;
+  
+}
+.Borderbtn{
+  display: flex;
+  float: right;
+}
+.butn2{
+  width: 150px;
+  height: 40px;
+  border: 3px solid rgb(36, 152, 177);
+  border-radius:30px ;
+  box-shadow: 20px;
+  margin: 20px;
+   padding: 10px;
+   background-color: rgb(60, 90, 131);
+   color:white;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.Mid-page{
+  height: 60vh;
+  width: 100%;
+  background-color: rgb(60, 90, 131);
+   position: relative;
+}
+
+.watch-video img{
+  height: 5vh;
+  border-radius: 20px;
+}
+.watch-video{
+  width: 130px;
+  height: 40px;
+  font-size: 15x;
+  border-radius: 25px;
+  color: white;
+  background-color: rgb(60, 90, 131);
+  position: absolute;
+  top: 393px;
+  margin-left: 250px;
+
+}
+
+.watch-video .watch-img{
+   position: absolute;
+   left: 0px;
+   top: 0px;
+
+}
+.watch-video .label{
+      font-size: 13px;
+       margin-left: 40px;
+}
+
+.butn-sec{
+  width: 130px;
+  height: 40px;
+  font-size: 15x;
+  border-radius: 25px;
+  color: white;
+  background-color:rgb(67, 205, 251);
+  margin-left: 100px;
+  margin-top: 20px;
+  
+}
+
+.img-1{
+  height: 45vh;
+  position: absolute;
+  margin-left: 600px;
+  top: 50px;
+   
+
+}
+
+
+.heading-1{
+  color: white;
+  font-size: 50px;
+  padding-top: 100px;
+  padding-left: 50px;
+}
+.content1{
+  color: white;
+  font-size: 25px;
+  padding-left: 50px;
+} 
+
+.promotion{
+  height: 16vh;
+  width: 100%;
+  background-color: rgb(224, 244, 246);
+  display: flex;
+  
+}
+
+.title1{
+  font-size: 25px;
+  margin-top: 40px;
+  margin-left: 150px;
+  font-style: italic;
+}
+
+.Aboutus{
+  color: rgb(60, 90, 131);
+  margin-top: 60px;
+  margin-left: 700px;
 }
